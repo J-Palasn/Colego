@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-TOKEN_KEY = st.secrets["HF_TOKEN"]
+TOKEN_KEY = st.secrets["TOKEN_KEY"]
 headers = {
     "Authorization": f"Bearer {TOKEN_KEY}",
     "Content-Type": "application/json",
