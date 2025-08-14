@@ -2,7 +2,7 @@ import requests
 import json
 
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
-TOKEN_KEY = "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"
+TOKEN_KEY = ""
 headers = {
     "Authorization": f"Bearer {TOKEN_KEY}",
     "Content-Type": "application/json",
