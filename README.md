@@ -10,7 +10,7 @@ With a clean interface, local storage support, and AI-driven generation, you can
 
 - 🎨 **User-Friendly Interface** – Built with **Streamlit**, offering a modern, responsive design.  
 - 📑 **Personal & Job Information Forms** – Enter details such as your name, skills, job title, and job description.  
-- 💾 **Local Storage Support** – Automatically **save and restore personal information** using browser `localStorage`.  
+- 💾 **Local Storage Support** – You can **save and restore personal information** using browser `localStorage`.  
 - 🤖 **AI-Powered Generation** – Uses **OpenRouter + GLM-4.5 Air** model to generate tailored cover letters.  
 - 🌓 **Unified Theme** – Ensures consistent look & feel across both light and dark modes.  
 
@@ -18,9 +18,12 @@ With a clean interface, local storage support, and AI-driven generation, you can
 
 ## 🚀 Getting Started  
 
+You can use it directly in your browser.
+Here is the app website: https://colego.streamlit.app/
+
 ### 1. Clone the Repository  
 ```bash
-git clone https://github.com/your-username/colego-cover-letter.git
+git clone https://github.com/J-Palasn/colego-cover-letter.git
 cd colego-cover-letter
 ```
 
@@ -31,7 +34,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Set API Key  
-Update your OpenRouter API key in the code:  
+Update your own OpenRouter API key in the code:  
 ```python
 TOKEN_KEY = "your_openrouter_api_key"
 ```
@@ -40,7 +43,7 @@ TOKEN_KEY = "your_openrouter_api_key"
 
 ### 4. Run the Application  
 ```bash
-streamlit run app.py
+streamlit run .../App.py
 ```
 
 ---
