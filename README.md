@@ -105,6 +105,4 @@ This project is licensed under the **MIT License** – feel free to use, modify,
 
 ## 👨‍💻 Author  
 
-**Jack Jin**  
-Computer Science & Business Minor @ McMaster University  
-🔗 [GitHub](https://github.com/your-username)  
+**Jack Jin**
