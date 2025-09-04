@@ -12,7 +12,6 @@ With a clean interface, local storage support, and AI-driven generation, you can
 - 📑 **Personal & Job Information Forms** – Enter details such as your name, skills, job title, and job description.  
 - 💾 **Local Storage Support** – You can **save and restore personal information** using browser `localStorage`.  
 - 🤖 **AI-Powered Generation** – Uses **OpenRouter + GLM-4.5 Air** model to generate tailored cover letters.  
-- 🌓 **Unified Theme** – Ensures consistent look & feel across both light and dark modes.  
 
 ---
 
