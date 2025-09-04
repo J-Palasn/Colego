@@ -22,7 +22,7 @@ Here is the app website: https://colego.streamlit.app/
 
 ### 1. Clone the Repository  
 ```bash
-git clone https://github.com/J-Palasn/colego-cover-letter.git
+git clone https://github.com/J-Palasn/Colego.git
 cd colego-cover-letter
 ```
 
