@@ -10,10 +10,59 @@ st.set_page_config(page_title="Colego - Cover Letter Generator", page_icon="🥑
 st.markdown("""
 <style>
 .stApp {
-    background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+    background: linear-gradient(135deg, #e3f2fd, #fce4ec) !important;;
     background-size: cover;
     min-height: 100vh;
+    color: #1a1a1a !important;
 }
+
+input[type="text"], textarea {
+    border-radius: 8px !important;
+    border: 0.05px solid #FFC0CB !important;
+    padding: 10px !important;
+    font-size: 15px !important;
+}
+
+div.stButton > button {
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+input, textarea, select, button {
+    color: #1a1a1a !important;
+    background-color: #ffffff !important;
+}
+
+label, .stTextInput label, .stTextArea label, .stSelectbox label {
+    color: #1a1a1a !important;
+    font-weight: 600 !important;
+}
+
+::placeholder {
+    color: #666 !important;
+    opacity: 1 !important;
+}
+
+.css-1d391kg, .stDataFrame, .stMarkdown table {
+    color: #1a1a1a !important;
+    background-color: #ffffff !important;
+    border: 1px solid #ccc !important;
+    border-radius: 8px !important;
+}
+
+div[data-testid="stNotification"], 
+.stAlert, .stAlert > div {
+    color: #1a1a1a !important;
+    border-radius: 10px !important;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -70,7 +119,7 @@ with col1:
         # == Save and Reset Button ==
         col1_1, col1_2 = st.columns([0.8, 1])
         with col1_1:
-            save_button = st.form_submit_button("Save Your Information", help='Save your personal information to your local')
+            save_button = st.form_submit_button("Save Information", help='Save your personal information to your local')
         with col1_2:
             reset_button = st.form_submit_button("Reset", help='Reset your personal information')
 
@@ -167,4 +216,4 @@ with col3:
 
                 st.write(generate(messages))
     else:
-        st.info("✨ Fill in the forms and click 'Generate Cover Letter' to your tailored cover letter here")
+        st.info("** Fill in the forms and click 'Generate Cover Letter' to your tailored cover letter here **")
