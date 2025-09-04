@@ -10,7 +10,7 @@ With a clean interface, local storage support, and AI-driven generation, you can
 
 - 🎨 **User-Friendly Interface** – Built with **Streamlit**, offering a modern, responsive design.  
 - 📑 **Personal & Job Information Forms** – Enter details such as your name, skills, job title, and job description.  
-- 💾 **Local Storage Support** – You can **save and restore personal information** using browser `localStorage`.  
+- 💾 **Local Storage Support** – You can **save and restore personal information** using browser `localStorage` to use it next time.  
 - 🤖 **AI-Powered Generation** – Uses **OpenRouter + GLM-4.5 Air** model to generate tailored cover letters.  
 
 ---
