@@ -28,7 +28,7 @@ cd colego-cover-letter
 ```
 
 ### 2. Install Dependencies  
-Make sure you have **Python 3.9+** and **pip** installed.  
+Make sure you have **Python** and **pip** installed.  
 ```bash
 pip install -r requirements.txt
 ```
